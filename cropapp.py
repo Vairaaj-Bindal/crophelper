@@ -4,7 +4,7 @@ from sklearn import tree
 from sklearn import metrics
 
 # Load the dataset (replace 'crop_data.csv' with your actual dataset file)
-data = pd.read_csv('Crop_recommendation.csv')
+data = pd.read_csv('Crop_recommendation.csv.numbers')
 
 # Separate features (soil and environmental parameters) and target (crop categories)
 X = data[['N', 'P', 'K', 'temperature', 'ph', 'humidity', 'rainfall']]
